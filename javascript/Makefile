@@ -3,6 +3,7 @@ project:
 	cp .sample/package.json project/
 	cp .sample/index.js project/
 	cp .sample/test.js project/
+	cp .sample/.tern-project project/
 	cd project && npm install
 
 init: project
